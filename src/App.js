@@ -13,10 +13,6 @@ import '../src/App.css'
 const InitialExpenses = [
 {
   
-  name : 'test-item',
-  price : '12',
-  date : '2018-04-18', 
-  id : Math.floor(Math.random() * 1000000) 
 }
 // ,
 
