@@ -1,0 +1,102 @@
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.grid_container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.footer_container{
+    width: 700px;
+    height: 120px;
+    background-color: rgb(233, 233, 233);
+    margin: auto;
+    margin-top: 100px;
+    /* color: rgb(9, 4, 56); */
+    /* color: rgb(0, 0, 0); */
+    margin-bottom: 10px;
+    /* background-image:url('../../../Assets/pexels-life-of-pix-8264.jpg'); */
+    background-position:right;
+    background-size:contain;
+    background-repeat: no-repeat;    
+
+}
+.footer_image{
+    width: 70px;
+    height: 70px;
+    background-image:url('../../../Assets/footerImage.jpg');
+    background-position: center;
+    background-size: cover;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    left: 20%;
+    top: -20%;
+    box-shadow: 0px 0px 0px 3px rgba(2, 10, 58, 0.644);;
+}
+
+.footer_content{
+    width: 500px;
+    position: relative;
+    top: 5%;
+    left: -10%;
+    /* background-color: rgb(71, 71, 71); */
+    height: 50%;
+    
+   
+}
+
+.footer_content__author{
+    font-size: 18px;
+    font-weight:lighter;
+    margin-bottom: 5px
+    
+}
+
+.footer_content__details{
+    font-size: 9px;    
+}
+.footer_content__details p {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.footer_links{
+    width : 50px;
+    height: 25px;
+    /* background-color: blue; */
+    position: relative;
+    left: -20%;
+    top : -70%;
+}
+.twitter, .linkedin{
+    width: 20px;
+    height: 20px;
+    /* background-color: chartreuse; */
+    position: relative;
+    left: 10%;
+
+}
+.twitter{
+    background-image: url('../../../Assets/Twitter.png');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-right: 1px solid rgb(0, 0, 0);
+    margin-right: 10px;
+}
+.linkedin{
+    background-image: url('../../../Assets/LinkedIn.png');
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

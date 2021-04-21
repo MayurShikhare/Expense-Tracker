@@ -1,0 +1,56 @@
+.input_container{
+width: 780px;
+height: 300px;
+/* background-color:rgba(153, 50, 204, 0.356); */
+position: relative;
+left: 22%;
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+}
+
+.item_name,.item_price,.item_date, .item_submit{
+    width: 346px;
+    height: 108px;
+    /* background-color:rgba(172, 255, 47, 0.404); */
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.user_input{
+    background-color: rgb(255, 255, 255);
+    height:45px;
+    border-color: transparent;
+    border-radius: 5px;
+    color: black;
+    font-size: 24px;
+    border: 1px solid rgba(151, 151, 151, 0.377);
+    box-shadow: 0 2px 1px 1px rgb(194, 194, 194);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.submit_button{
+    width: 200px;
+    height: 50px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    /* background-image:linear-gradient(35deg, rgba(76, 11, 255, 0.986),rgba(77, 5, 245, 0.712)); */
+    background-color: rgba(255, 228, 196, 0.904);
+    
+    font-size: 22px;
+    position: relative;
+    left: 20%;
+    top: 10px;
+    border: 2px solid rgba(255, 157, 157, 0.966);
+    color: rgb(0, 0, 0);
+}

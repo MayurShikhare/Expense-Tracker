@@ -1,0 +1,62 @@
+.dashboard_container{
+    width: 1194px;
+    height: 339px;
+    /* background-color: rgb(215, 255, 196); */
+    background-color: rgba(215, 255, 196, 0.726);
+    margin: auto;
+    margin-top: 40px;
+
+}
+.chart_png{
+    width: 300px;
+    height: 338px;
+    background-image: url('../../../Assets/Allura_-_UI_Windows.png');
+    background-position: center;
+    background-size: cover;
+}
+.dashboard_items{
+    width: 844px;
+    height: 339px;
+    position: relative;
+    /* background-color: rgba(215, 255, 196, 0.575); */
+    left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-gap: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.dashboard_availableCash ,.dashboard_expense, .dashboard_income{ width: 346px; height: 108px; border-radius: 10px; background-color: rgba(128, 255, 0, 0.973); font-size: 28px; box-shadow: 0 2px 1px 5px rgba(197, 243, 150, 0.562); -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
+width: 346px;
+height: 108px;
+background-color: rgb(215, 255, 196);
+box-shadow: 0 2px 1px 1px rgb(163, 163, 163);
+
+}
+.dashboard_item__flexcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard_availableCash{
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+
+.dashboard_income{
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+.dashboard_expense{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    top: -20%;
+}

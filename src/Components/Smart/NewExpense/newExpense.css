@@ -1,0 +1,30 @@
+.form_container{
+    background-color: rgba(236, 236, 236, 0.322);
+    width: 1194px;
+    height: 344px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    
+}
+.pattern{
+    width: 20%;
+    height: 100%;
+    /* background-image:linear-gradient(135deg, rgba(81, 49, 196, 0.986),rgba(81, 49, 196, 0.966));   */
+    background-color: rgba(255, 228, 196, 0.829);
+    clip-path: polygon(100% 48%, 0 0, 0 100%);
+    -webkit-clip-path: polygon(100% 48%, 0 0, 0 100%);
+    /* border: 4px solid rgb(153, 153, 153); */
+    
+}
+.instruction{
+    width: 200px;
+    height: 50px;
+    color: rgb(36, 35, 35);
+    position: relative;
+    top: 44%;
+    left: 5%;
+    font-size: 28px;
+}
