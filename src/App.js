@@ -11,9 +11,7 @@ import Footer from './Components/Dumb/Footer/Footer'
 import '../src/App.css'
 
 const InitialExpenses = [
-{
-  
-}
+
 // ,
 
 // {
