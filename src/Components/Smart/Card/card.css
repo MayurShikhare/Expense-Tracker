@@ -67,3 +67,17 @@ margin-bottom: 10px;
     /* margin-bottom: 10px; */
     background-color: rgb(255, 184, 184);
 }
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    
+
+    .card_name, .card_price, .card_date{
+        font-size: 10px;
+        color: white;
+        background-color: black;
+        width: 8%;
+
+    }
+    
+
+}
